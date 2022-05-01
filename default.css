@@ -361,11 +361,16 @@ template {
 .posts__list-item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav {
   display: flex;
   justify-content: space-between;
+}
+
+.posts__list-item__date {
+  font-size: 1.5rem;
 }
 
 /* Sakura.css v1.3.1
