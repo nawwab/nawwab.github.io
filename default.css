@@ -367,6 +367,7 @@ template {
 .header__nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .posts__list-item__date {
@@ -440,11 +441,12 @@ hr {
   border-color: #1d7484; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #1d7484; }
   a:hover {
     color: #982c61;
-    border-bottom: 2px solid #4a4a4a; }
+    /* border-bottom: 2px solid #4a4a4a; */ 
+  }
   a:visited {
     color: #144f5a; }
 
